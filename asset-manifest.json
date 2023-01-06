@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-bmi-calculator/static/css/main.51f98bfc.css",
+    "main.js": "/react-bmi-calculator/static/js/main.81407c72.js",
+    "static/media/overweight.png": "/react-bmi-calculator/static/media/overweight.d289cb46e9633c985346.png",
+    "static/media/healthy.png": "/react-bmi-calculator/static/media/healthy.9343f93bce37d792e548.png",
+    "static/media/underweight.png": "/react-bmi-calculator/static/media/underweight.59ea1528911569173fa9.png",
+    "index.html": "/react-bmi-calculator/index.html",
+    "main.51f98bfc.css.map": "/react-bmi-calculator/static/css/main.51f98bfc.css.map",
+    "main.81407c72.js.map": "/react-bmi-calculator/static/js/main.81407c72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51f98bfc.css",
+    "static/js/main.81407c72.js"
+  ]
+}
