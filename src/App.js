@@ -14,7 +14,6 @@ function App() {
       alert("Please enter a valid weight and height");
     } else {
       let bmi = (weight / ((height * height) / 100)) * 100;
-      console.log("bmi", bmi);
       setBmi(bmi.toFixed(1));
       if (bmi < 25) {
         setMessage("You are underweight");
