@@ -13,7 +13,8 @@ function App() {
     if (weight === 0 || height === 0) {
       alert("Please enter a valid weight and height");
     } else {
-      let bmi = (weight / (height * height)) * 703;
+      let bmi = (weight / ((height * height) / 100)) * 100;
+      console.log("bmi", bmi);
       setBmi(bmi.toFixed(1));
       if (bmi < 25) {
         setMessage("You are underweight");
@@ -47,7 +48,7 @@ function App() {
         <h2 className="center">BMI Calculator</h2>
         <form onSubmit={calcBmi}>
           <div>
-            <label>Weight (lbs)</label>
+            <label>Weight (kg)</label>
             <input
               value={weight}
               onChange={(event) => {
@@ -56,7 +57,7 @@ function App() {
             />
           </div>
           <div>
-            <label>Height (in)</label>
+            <label>Height (cm)</label>
             <input
               value={height}
               onChange={(event) => {
